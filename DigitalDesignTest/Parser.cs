@@ -7,10 +7,11 @@ namespace DigitalDesignTest
  public class Parser
     {
         private string _allText;
+        private Dictionary<string, int> _parser;
         public Parser(string fileName)
         {        
             string[] words = DeleteAllSigns(fileName).Split(' ');
-            Dictionary<string, int> _parser  = new Dictionary<string, int>();
+            _parser = new Dictionary<string, int>();
             for (int i = 0; i < words.Length; i++)
             {
                 if (_parser.Keys.Contains(words[i]))
@@ -28,7 +29,7 @@ namespace DigitalDesignTest
         }
         private string DeleteAllSigns(string text)
         {
-            text = text.Replace(".", string.Empty).Replace("?", string.Empty).Replace("!", string.Empty).Replace(",", string.Empty).Replace(",", string.Empty);
+            text = text.Replace(".", string.Empty).Replace("?", string.Empty).Replace("!", string.Empty).Replace(",", string.Empty).Replace(",", string.Empty).ToLower();
             return text;
         }
         public override string ToString()

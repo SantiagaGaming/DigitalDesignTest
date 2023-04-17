@@ -5,3 +5,11 @@ D:\Unity\C#\DigitalDesignTest\DigitalDesignTest\obj\Debug\DigitalDesignTest.cspr
 D:\Unity\C#\DigitalDesignTest\DigitalDesignTest\obj\Debug\DigitalDesignTest.csproj.CoreCompileInputs.cache
 D:\Unity\C#\DigitalDesignTest\DigitalDesignTest\obj\Debug\DigitalDesignTest.exe
 D:\Unity\C#\DigitalDesignTest\DigitalDesignTest\obj\Debug\DigitalDesignTest.pdb
+D:\Ilya\C#\DigitalDesignTest\DigitalDesignTest\bin\Debug\DigitalDesignTest.exe.config
+D:\Ilya\C#\DigitalDesignTest\DigitalDesignTest\bin\Debug\DigitalDesignTest.exe
+D:\Ilya\C#\DigitalDesignTest\DigitalDesignTest\bin\Debug\DigitalDesignTest.pdb
+D:\Ilya\C#\DigitalDesignTest\DigitalDesignTest\obj\Debug\DigitalDesignTest.csproj.AssemblyReference.cache
+D:\Ilya\C#\DigitalDesignTest\DigitalDesignTest\obj\Debug\DigitalDesignTest.csproj.SuggestedBindingRedirects.cache
+D:\Ilya\C#\DigitalDesignTest\DigitalDesignTest\obj\Debug\DigitalDesignTest.csproj.CoreCompileInputs.cache
+D:\Ilya\C#\DigitalDesignTest\DigitalDesignTest\obj\Debug\DigitalDesignTest.exe
+D:\Ilya\C#\DigitalDesignTest\DigitalDesignTest\obj\Debug\DigitalDesignTest.pdb

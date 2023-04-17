@@ -5,12 +5,12 @@ namespace DigitalDesignTest
 {
   public  class FileReader
     {
-        StreamReader sr;
+       private StreamReader _sr;
         public  FileReader(string path)
         {
             try
             {
-                sr = new StreamReader(path);
+                _sr = new StreamReader(path);
             }
             catch (FileNotFoundException e)
             {
@@ -19,7 +19,7 @@ namespace DigitalDesignTest
         }
         public string GetFileText()
         {
-            return sr.ReadToEnd();
+            return _sr.ReadToEnd();
         }
     }
 }

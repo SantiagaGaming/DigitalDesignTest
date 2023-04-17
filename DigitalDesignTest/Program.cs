@@ -7,7 +7,7 @@ namespace DigitalDesignTest
         static void Main(string[] args)
         {
             string loadTextePath = Environment.CurrentDirectory.ToString() + "\\Текст.txt";
-            string saveTextPath = Environment.CurrentDirectory.ToString() + "\\Список.txt";// parser.ToString();
+            string saveTextPath = Environment.CurrentDirectory.ToString() + "\\Список.txt";
             FileReader fr = new FileReader(loadTextePath);
             string text = fr.GetFileText();
             Parser parser = new Parser(text);
